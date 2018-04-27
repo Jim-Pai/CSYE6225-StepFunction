@@ -1,6 +1,7 @@
 # CSYE6225-StepFunction
 
 Public API to invoke Amazon Step Function:
+
 [https://wwrgqdeci2.execute-api.us-west-2.amazonaws.com/alpha/registration](https://wwrgqdeci2.execute-api.us-west-2.amazonaws.com/alpha/registration)
 
 Request Body should be this format:
@@ -22,6 +23,7 @@ You will get a response with body like this:
 Record the executionArn to retrieve the output of state machine.
 
 Public API to retrieve the output of state machine:
+
 [https://wwrgqdeci2.execute-api.us-west-2.amazonaws.com/alpha/description](https://wwrgqdeci2.execute-api.us-west-2.amazonaws.com/alpha/description)
 
 You have to wait a moment until state machine stop running.
