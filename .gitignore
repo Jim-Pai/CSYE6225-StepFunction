@@ -1,0 +1,16 @@
+# Maven Project Config #
+########################
+*.xml
+README.html
+.project
+.classpath
+.settings/
+
+# Unneccessary Folders #
+########################
+/target
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
